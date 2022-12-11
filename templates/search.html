@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Splunk Logging Checker </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      .container {
+        max-width: 1000px;
+      }
+
+.topright {
+  position: absolute;
+  top: 200px;
+  right: 16px;
+  font-size: 18px;
+}
+.bottomright {
+  position: absolute;
+  bottom: 120px;
+  right: 16px;
+  font-size: 18px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Splunk Logging Checker</h1>
+      <p><p>
+      <form role="form" method='POST' action='/'>
+        <div class="form-group">
+            <label for="host-box">Check if a device is logging to Splunk</label>>
+          <input type="text" name="hosts" class="form-control" id="hosts" placeholder="Enter Hostname..." style="max-width: 300px;" autofocus required>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <p><p>
+      <p><p>
+        <form role="form" method='POST' action='/'>
+            <div class="form-group">
+                <label for="host-box">Check if a Universal Forwarder is connecting to Splunk</label>>
+              <input type="text" name="hostuf" class="form-control" id="hosts" placeholder="Enter Hostname..." style="max-width: 300px;" autofocus required>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+      <p><p>
+      <br><br/>
+      <p> Contact Us: SplunkHelp@company.com <p>
+      <p><p>
+      <p><p>
+      <p><p>    
+        <li><a href="https://www.w3schools.com/">Require Assistance?</a></li>
+      <p><p>
+      <p><p>
+        <li><a href="{{ url_for('about') }}">Frequently Asked Questions</a></li>
+
+    </div>
+    <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
