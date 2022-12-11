@@ -10,3 +10,4 @@ The application is comprised of the following:
   2.3) search.html – Home page
 
 
+![image](https://user-images.githubusercontent.com/19916793/206933677-8e6443af-87de-461f-b554-47c1645412ed.png)
