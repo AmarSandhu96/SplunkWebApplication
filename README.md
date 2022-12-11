@@ -8,5 +8,5 @@ The application is comprised of the following:
 2.1) device_not_found.html – self explanatory
 2.2) about.html – About page
 2.3) search.html – Home page
-![image](https://user-images.githubusercontent.com/19916793/206930192-de93cfd4-8df9-4102-ae27-75b6fe0e02cd.png)
+
 
